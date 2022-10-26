@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Sasha4907/NodeJS-Labs#readme",
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "editorconfig": "^1.0.1",
     "eslint": "^8.26.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -30,6 +31,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sonarjs": "^0.16.0",
     "husky": "^8.0.0",
+    "node": "^19.0.0",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
   }
 }
