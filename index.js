@@ -1,7 +1,5 @@
-const iceCream = "chocolate";
+const express = require('express');
 
-if (iceCream === "chocolate") {
-  alert("Yay, I love chocolate ice cream!");
-} else {
-  alert("Awwww, but chocolate is my favorite...");
-}
+const app = express();
+
+app.listen(5000, () => console.log('Start work'))
