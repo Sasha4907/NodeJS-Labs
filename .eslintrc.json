@@ -17,6 +17,8 @@
   "rules": {
     "semi":"off",
     "no-undef":"off",
-    "no-alert":"off"
+    "no-alert":"off",
+    "sonarjs/cognitive-complexity": "error",
+    "sonarjs/no-identical-expressions": "error"
   }
 }
