@@ -1,5 +1,12 @@
-const express = require('express');
+const http = require("http");
+const dotenv = require('dotenv');
 
-const app = express();
+dotenv.config();
 
-app.listen(5000, () => console.log('Start work'))
+const Start = (req, res) => {
+  return res.end(`<h1>Start work</h1>`)
+}
+
+const server = http.createServer(Start);
+
+server.listen(process.env.PORT, process.env.HOST, () => console.log('Start work'))

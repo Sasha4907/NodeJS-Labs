@@ -15,9 +15,10 @@
   },
   "plugins": ["sonarjs"],
   "rules": {
-    "semi":"off",
-    "no-undef":"off",
-    "no-alert":"off",
+    "semi": "off",
+    "no-undef": "off",
+    "no-alert": "off",
+    "arrow-body-style": "off",
     "sonarjs/cognitive-complexity": "error",
     "sonarjs/no-identical-expressions": "error"
   }
