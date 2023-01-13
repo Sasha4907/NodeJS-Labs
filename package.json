@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "lint": "eslint **/*.js",
+    "lint:check": "npm run --workspaces --if-present lint:check",
+    "lint:fix": "npm run --workspaces --if-present lint:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasha4907/NodeJS-Labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sasha4907/NodeJS-Labs/issues"
+  },
+  "homepage": "https://github.com/Sasha4907/NodeJS-Labs#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "editorconfig": "^1.0.1",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "husky": "^8.0.0",
+    "node": "^16.13.2",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "http": "^0.0.1-security"
+  }
+}
