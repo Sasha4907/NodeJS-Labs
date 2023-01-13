@@ -7,9 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
     "lint": "eslint **/*.js",
-    "lint-fix": "eslint **/*.js --fix",
-    "pretty": "npx prettier **/*.js --check",
-    "pretty-fix": "npx prettier **/*.js --write"
+    "lint:check": "npm run --workspaces --if-present lint:check",
+    "lint:fix": "npm run --workspaces --if-present lint:fix"
   },
   "repository": {
     "type": "git",
@@ -34,7 +33,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sonarjs": "^0.16.0",
     "husky": "^8.0.0",
-    "node": "^19.0.0",
+    "node": "^16.13.2",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
   },
